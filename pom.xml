@@ -18,19 +18,18 @@
         <jersey.version>2.26</jersey.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-<!-- -->
+
     <repositories>
         <repository>
-            <id>nexus.kebblar.io-repo</id>
-            <url>http://nexus.kebblar.io:7070/repository/all/</url>
-            <name>Kebblar Repository</name>
+            <id>nexus.cgtic.conacyt.mx</id>
+            <url>http://172.26.13.249:18080/repository/maven-snapshots/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <snapshotRepository>
-            <id>nexus.kebblar.io-repo</id>
-            <url>http://nexus.kebblar.io:7070/repository/maven-snapshots/</url>
+            <id>nexus.cgtic.conacyt.mx</id>
+            <url>http://172.26.13.249:18080/repository/maven-snapshots/</url>
             <uniqueVersion>true</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
